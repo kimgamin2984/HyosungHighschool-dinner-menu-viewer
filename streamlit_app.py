@@ -7,6 +7,8 @@ import requests
 from pytz import timezone
 from dotenv import load_dotenv
 
+st.title('효성여자고등학교')
+
 today = st.date_input("조회일", value=datetime.now(timezone('Asia/Seoul')))
 month = today.month
 day = today.day
