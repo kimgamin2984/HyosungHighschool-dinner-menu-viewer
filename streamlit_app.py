@@ -47,7 +47,7 @@ with tab1:
 with tab2:
     st.markdown("## 석식 식단")
     if not os.path.exists(filename):
-        st.error("석식 정보가 없습니다. 개발자에게 문의하세요.")
+        st.error("석식 정보가 없습니다.")
     else:
         try:
             doc = fitz.open(filename)
